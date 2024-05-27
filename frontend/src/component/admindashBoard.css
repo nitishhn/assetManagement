@@ -1,0 +1,58 @@
+.admindashboard-bg {
+  background-image: url("https://img.freepik.com/premium-photo/asset-management-technology-business-concept_220873-10822.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns items to the top */
+  padding-top: 20px; /* Adds some space at the top */
+}
+
+.admindashboard-content {
+  text-align: start;
+  color: hsl(210, 25%, 94%);
+  width: 100%; /* Ensures content uses full width */
+}
+
+.admindashboard-content h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.admindashboard-content .button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; /* Ensures buttons use full width */
+}
+
+.admindashboard-content .button-container button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #f2f8f2;
+  color: #0f0e0e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: fit-content; /* Adjusts button width to content */
+}
+
+.admindashboard-content .button-container button:hover {
+  background-color: #45a049;
+}
+
+@media (min-width: 768px) {
+  .admindashboard-content .button-container {
+    flex-direction: row;
+    justify-content: center; /* Aligns buttons to the start */
+    align-items: flex-start;
+  }
+
+  .admindashboard-content .button-container button {
+    margin: 10px;
+  }
+}

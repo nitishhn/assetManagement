@@ -1,0 +1,73 @@
+.asset-service-request-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Heading styles */
+.asset-service-request-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.asset-service-request-container form {
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.asset-service-request-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+.asset-service-request-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.asset-service-request-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+.asset-service-request-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.asset-service-request-table th,
+.asset-service-request-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.asset-service-request-table th {
+  background-color: #f2f2f2;
+}
+
+/* View and Delete button styles */
+.asset-service-request-container .view-delete-buttons button {
+  margin-right: 5px;
+  padding: 8px 15px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.asset-service-request-container .view-delete-buttons button:hover {
+  background-color: #c82333;
+}

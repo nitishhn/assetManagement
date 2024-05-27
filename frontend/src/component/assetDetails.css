@@ -1,0 +1,50 @@
+/* assetDetails.css */
+
+.asset-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.asset-details-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.asset-details-content {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.asset-details-content:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.asset-details-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.asset-details-description {
+  margin-bottom: 20px;
+}
+
+.asset-details-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.asset-details-content p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.asset-details-content p:last-child {
+  margin-bottom: 0;
+}

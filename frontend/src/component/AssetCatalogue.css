@@ -1,0 +1,188 @@
+/* AssetCatalogue.css *
+
+.asset-catalogue-container {
+  align-content: center;
+  max-width: 100%;
+  margin: 5 auto;
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  color: #3d0898;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 150px; 
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.data-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.data-field label {
+  margin-bottom: 5px;
+}
+
+.data-field input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-create {
+  background-color: #28a745; 
+
+.btn-delete {
+  background-color: #dc3545; 
+
+/* Add another color for other buttons
+.btn-other {
+  background-color: #ff6f61; /* Orange
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn-group button {
+  color: white;
+  text-align: center;
+}
+
+.btn-group button:hover {
+  opacity: 0.8;
+}
+
+
+*/
+.asset-catalogue-container {
+  align-content: center;
+  max-width: 100%;
+  margin: 5 auto;
+  padding: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.data-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.data-field label {
+  margin-bottom: 5px;
+}
+
+.data-field input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn-group button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-group button.btn-create {
+  background-color: #28a745;
+}
+
+.btn-group button.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-group button.btn-other {
+  background-color: #ffc107;
+}
+
+.btn-group button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styling for displaying all assets */
+.asset-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.asset-table th,
+.asset-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.asset-table th {
+  background-color: #007bff;
+  color: white;
+}
